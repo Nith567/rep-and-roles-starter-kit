@@ -15,7 +15,7 @@ import {ReputationFaucet} from "../contracts/Reputation/ReputationFaucet.sol";
 contract DeployDemoScript is ScaffoldETHDeploy {
     error InvalidPrivateKey(string);
 
-    address controller = 0x2F15D4A66D22ecC6967928b6A76Ab06897b05676; //replace with burner or other address from wallet!
+    address controller = 0xA2a9055A014857d6c1e8f1BDD8682B6459C5Fa85; //replace with burner or other address from wallet!
 
     function run() external {
         uint256 deployerPrivateKey = setupLocalhostEnv();
